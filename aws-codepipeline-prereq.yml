@@ -257,10 +257,6 @@ Outputs:
     Value: !Ref S3ArtifactsBucket
     Export:
       Name: S3ArtifactsBucket
-  SNSapprovalprd:
-    Value: !Ref SNSapprovalprd
-    Export:
-        Name: SNSapprovalprd
   LambdaPolicyDynamo:
     Value: !Ref LambdaPolicyDynamo
     Export:
